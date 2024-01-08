@@ -211,6 +211,75 @@ body{
   padding-bottom: 50px;
   padding-top: 30px;
 }
+.box3-img{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+.circlar-photo{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  gap: 40px;
+}
+.circlar-photo:nth-child(1){
+  transform: translate(-50%, -50%)
+  rotate(205.72deg) translate(150px) rotate(205.72deg);
+}
+.circlar-photo:nth-child(2){
+  transform: translate(-50%, -50%)
+  rotate(257.15deg) translate(150px) rotate(257.15deg);
+}
+.circlar-photo:nth-child(3){
+  transform: translate(-50%, -50%)
+  rotate(308.58deg) translate(150px) rotate(308.58deg);
+}
+.circlar-photo:nth-child(4){
+  transform: translate(-50%, -50%)
+  rotate(0deg) translate(150px) rotate(0deg);
+}
+.circlar-photo:nth-child(5){
+  transform: translate(-50%, -50%)
+  rotate(51.43deg) translate(150px) rotate(51.43deg);
+}
+.circlar-photo:nth-child(6){
+  transform: translate(-50%, -50%)
+  rotate(102.86deg) translate(150px) rotate(102.86deg);
+}
+.circlar-photo:nth-child(7){
+  transform: translate(-50%, -50%)
+  rotate(154.29deg) translate(150px) rotate(154.29deg);
+}
+ .black_jacket{
+  transform: rotate(-50deg);
+}
+
+.strip_top{
+  
+}
+.black_top{
+  
+}
+.lumber_jack{
+  
+}
+.yellow_female{
+  
+}
+.green_top{
+ 
+}
+.yellow_male{
+  transform: rotateX('50deg');
+}
+.center_lady{
+  padding: 10px;
+}
 .box5{
   background: linear-gradient(106deg, #ECD282 8.84%, #E9F1E6 41.96%, #AAD0BB 87.72%);
   padding-left: 70px;
